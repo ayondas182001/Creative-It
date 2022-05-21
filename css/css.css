@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    
+}
+.justify_center{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.justify_end{
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.justify_between{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.valign_center{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+body{
+    font-family: 'Arimo', sans-serif;
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #5b6b80;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #212529;
+}
+p {
+    font-size: 16px;
+    color: #777;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* top header part css start */
+#top_header{
+    background: #ee2e24;
+    padding: 10px 0;
+}
+
+.head_left {
+    width: 20%;
+}
+
+.head_left h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.head_right {
+    width: 80%;
+}
+
+.head_right marquee {
+    color: #fff;
+    font-size: 20px;
+    -webkit-transition: 1s;
+    -webkit-transition: 2s;
+    -webkit-transition: 3.5s;
+    -webkit-transition: 5s;
+    transition: 5s;
+}
+/* top header part css end */
+
+/* main menu part start css */
+#main_menu{
+    -webkit-box-shadow: 0 0 5px 3px rgba(221, 221, 221, .5);
+    box-shadow: 0 0 5px 3px rgba(221, 221, 221, .5);
+    background: #f8f9fa!important
+}
+.logo{
+    width: 20%;
+    padding: 10px 0;
+}
+.menu{
+    width: 80%;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+.menu ul li a{
+    padding: 30px 20px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #444;
+    font-size: 19px;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.menu > ul > li:last-child > a{
+    background: red;
+    color: white;
+}
+/* main menu part end css */
+
+/* background part start css */
+.banner_items{
+    height: 700px;
+    background-position: center !important;
+    background-size: cover !important;
+}
+/* main menu part end css */
+
+/* about part start css */
+#about{
+    margin-top: 50px;
+}
+.about_image{
+    width: 45%;
+    background: url(../images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+}
+.about_text{
+    width: 45%;
+}
+/* about part end css */
+
+/* seminar part start css */
+#seminar{
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    padding: 50px 0px; 
+}
+.table{
+    background-color: white;
+    width: 100%;
+    -ms-flex-line-pack: center;
+    text-align: center; 
+}
+.table h2{
+    background-color: #dddddda3;
+    padding:20px 0;
+}
+.table1 table {
+    width:100%;
+    padding: 40px 40px;
+}
+.table1 tr th {
+    color: #fff!important;
+    border-right: 0px solid #fff;
+    text-align: center;
+    background-color: #49596d;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 10px;
+    border-right: 1px solid #fff;
+}
+.table1 tr td {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px;
+    background-color: rgba(0,0,0,.05);
+    border-right: 1px solid #fff;
+}
+.table1 button{
+    background-color: #49596d;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* seminar part end css */
+
+/* Course part start css */
+#course{
+    padding-top: 30px;
+}
+#course h2{
+    padding-bottom: 5px;
+}
+.introduction{
+    width: 48%;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+.introduction .in1{
+    width: 70%;
+    padding: 20px 20px;
+}
+.introduction .in1 p{
+    padding-top: 10px;
+}
+.btn p{
+    color: white;
+    background-color: #49596d;
+}
+.btn p{
+    padding: 15px;
+    text-align: center;
+     margin-bottom: 25px;
+    border-radius: 0px 46px 46px 0px;
+    cursor: pointer;
+    
+}
+.btn p:hover{
+    background: red;
+    -webkit-transition-delay: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin-left: 5px;
+}
+.btn{
+    width: 180px;
+}
+
+.introduction .in2{
+    width: 30%;
+}
+.introduction .in2 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Course part end css */
+
+/* Gallery part start css */
+#gallery{
+padding-top: 50px;
+}
+#gallery p{
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.img{
+    width: 32%;
+    margin-bottom: 15px;
+}
+.img img{
+    width: 100%;
+}
+/* Gallery part end css */
+
+/* Form part start css */
+#form p{
+    margin-bottom: 30px;
+}
+.field{
+    width: 49%;
+    padding: 10px 0px;
+}
+.field input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-right: 20px;
+    
+}
+.message{
+    width: 100%;
+}
+.message textarea{
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px;
+    resize: none;
+}
+.button button{
+    background: #49596d;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+
+}
+.button button:hover{
+    background-color: red;
+    -webkit-transition: .5s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.button{
+    margin: auto;
+    padding-left: 500px;
+    padding-bottom: 50px;
+    
+}
+/* Form part end css */
+
+/* footer part start css */
+#footer{
+    background: #f5f5f5;
+    padding-top: 50px;
+}
+.f1{
+    width: 33%;
+    padding: 50px;
+    vertical-align: top;
+}
+.f1 img{
+    width: 110px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.fa-facebook-f, .fa-youtube, .fa-linkedin-in{
+    border-radius: 50%;
+    border: 2px solid #b8b8b8;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+
+.f1 i{
+    margin: 15px 3px;
+    
+}
+.f1 i:hover{
+     background-color: red;
+    -webkit-transition: .5s;
+    -webkit-transition: 1s;
+    transition: 1s;    
+    color: white;
+    cursor: pointer;
+}
+.f1 p{
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+}
+/* footer part end css */
